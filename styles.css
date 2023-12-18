@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: Poppins;
+}
+
+.nav-bar {
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.search-bar {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.npm {
+    width: 100px;
+    margin-right: 1rem;
+}
+
+.form {
+    position: relative;
+    width: 1000px;
+    margin-bottom: 0px;
+    border-style: none;
+}
+
+.form .magnifyingGlass {
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.input {
+    width: 1000px;
+    height: 40px;
+    padding-left: 40px;
+    background-color: rgb(236, 232, 232);
+    border-color: rgb(236, 232, 232);
+    border-style: none;
+}
+
+.buttonSearch {
+    position: absolute;
+    padding: 10px 20px;
+    font-family: Poppins;
+    color: white;
+    background-color: #fb3e44;
+    border-color: none;
+    border-style: none;
+}
+
+.buttonJoin {
+    margin-left: 100px;
+    padding: 3 20px;
+    font-family: Poppins;
+    background-color: white;
+    border-color: 1px solid black;
+}
+
+.buttonLogIn {
+    padding: 10px;
+    font-family: Poppins;
+    background-color: white;
+    border: none;
+    border-style: none;
+}
+
+.section-1 {
+    height: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(232, 217, 217, 0.3);
+}
+
+.section-1 h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.articleEssential {
+    max-width: 600px;
+    margin-bottom: 20px;
+    height: 5px;
+    text-align: center;
+}
+
+.container-1 {
+    margin-top: 90px;
+    display: flex;
+    display: inline-block;
+}
+
+.buttonSee {
+    margin-right: 20px;
+    padding: 10px 40px;
+    font-family: Poppins;
+    background-color: #FB3B49;
+    border-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+}
+
+.buttonJoinFor {
+    margin-left: 20px;
+    padding: 10px 40px;
+    font-family: Poppins;
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+    border-style: none;
+}
+
+.section-2 {
+    height: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangleHexagon {
+    max-width: 100%;
+    width: 200px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(255, 204, 53, 0.4);
+}
+
+.articleNpm {
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+}
+
+.section-3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-3 h3 {
+    margin-top: 40px;
+    color: #FB3B49;
+}
+
+.contenedorSection-3 {
+    position: relative;
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border: none;
+}
+
+.icon {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+
+.buttonCreate {
+    position: absolute;
+    margin-top: 400px;
+    padding: 10px 60px;
+    font-family: Poppins;
+    background-color: black;
+    color: white;
+    border: none;
+    border-style: none;
+}
